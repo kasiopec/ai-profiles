@@ -38,7 +38,7 @@ cat > "$ROUTER_PATH" <<EOF
 This project uses the AI profiles submodule. All conventions, agents, and skills
 live in \`$RELATIVE_PROFILE\`. Do not duplicate them here.
 
-Full Android profile entry point: \`$RELATIVE_PROFILE\`
+Full Android profile entry point: `$RELATIVE_PROFILE`
 EOF
 
 echo "Wrote $ROUTER_PATH -> $RELATIVE_PROFILE"
