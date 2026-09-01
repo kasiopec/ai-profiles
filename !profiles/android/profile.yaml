@@ -1,0 +1,18 @@
+name: android
+version: 0.1.0
+description: Android (Kotlin + Jetpack Compose) conventions for AI coding agents.
+target_agents:
+  - codex
+  - claude
+  - kilo
+  - gemini
+entry_points:
+  codex_kilo: AGENTS.md
+  claude:     CLAUDE.md
+  gemini:     GEMINI.md
+includes:
+  shared_core: core/shared.md
+structure:
+  agents:  agents/
+  rules:   rules/
+  skills:  skills/
